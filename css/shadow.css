@@ -1,0 +1,7 @@
+/*Тени */
+.shb{
+	text-shadow: black 3px 3px 3px;
+}
+.shw{
+	text-shadow: white 3px 3px 3px;
+}

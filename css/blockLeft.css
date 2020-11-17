@@ -1,0 +1,31 @@
+
+.wrapper{
+    margin: 0 auto;
+}
+.content__left-inner{
+    height: 200px;
+
+}
+.content__left{
+    width: 25%;
+    background-color: pink;
+}
+
+
+.aside-fixed--top .content__left-wrapper-outer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+      
+}
+
+.aside-fixed--top .content__left-inner{
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    height: 0;
+}
+.aside-fixed--top .content__left-inner {
+    width: 25%;
+}

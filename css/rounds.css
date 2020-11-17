@@ -1,0 +1,15 @@
+/*Круги */
+.round01 {
+  width: 300px;
+  height: 300px;
+  border: 20px solid #98603F;
+  border-radius: 50%;
+  margin-left: 100px;
+}
+
+.round02 {
+  width: 51px;
+  height: 51px;
+  border: 5px solid #98603F;
+  border-radius: 50%;
+}

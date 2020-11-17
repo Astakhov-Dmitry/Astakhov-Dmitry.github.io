@@ -1,0 +1,29 @@
+/*Cсылки */
+.ss{
+	font-size: 50px;
+	margin-top: 20px;
+	font-family:yanone_kaffeesatzregular, Arial;
+}
+.pochta{
+	margin-bottom: 20px;
+	font-size: 60px;
+	font-family: yanone_kaffeesatzbold, Arial;
+	
+}
+a{
+	text-decoration: none;
+}
+
+a1{
+	color: white;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a1:hover, a1:focus {
+    background-size: 100% 2px;
+}
+

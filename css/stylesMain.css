@@ -1,0 +1,202 @@
+/*Cсылки */
+.ss{
+	font-size: 50px;
+	margin-top: 20px;
+	font-family:yanone_kaffeesatzregular, Arial;
+}
+.pochta{
+	margin-bottom: 20px;
+	font-size: 60px;
+	font-family: yanone_kaffeesatzbold, Arial;
+	
+}
+a{
+	text-decoration: none;
+}
+
+a1{
+	color: white;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a1:hover, a1:focus {
+    background-size: 100% 2px;
+}
+
+
+/*Таблицы */
+table{
+	
+	font-family: yanone_kaffeesatzbold, Arial;
+}
+
+
+/*Тело  */
+body {
+	
+	background: url(../pic/bac.jpg);
+    background-size: 1920px 8114px;
+}
+/*Динамика*/
+@media (max-width: 757px){
+	.t1{
+		font-size: calc(13px + (37+37*0.7) * ((100vw - 320)/1920));
+	}
+	.t2{
+		font-size: calc(40px + (210+210*0.7) * ((100vw - 320)/1920));
+	}
+	.t3{
+		font-size: calc(8px + (42+42*0.7) * ((100vw - 320)/1920));
+	}
+	.menu{
+		font-size: calc(30px + (10+10*07)* ((100vw - 320)/1920));
+	}
+	.t4{
+		font-size: (50px + (50+50*0.7) * ((100vw -320)/ 1920));
+	}
+	.t5{
+		font-size: (14px + (26+26*0.7) * ((100vw -320)/ 1920));
+	}
+	.t6{
+		font-size: (1px + (14+14*0.7) * ((100vw -320)/ 1920));
+	}
+}
+
+/*Начало */
+.t1{
+	margin-top: 150px;
+	margin-bottom: 1px;
+	margin-left: 150px;
+	/*font-size: 50px;*/
+	font-size: calc(13px + 37 * (100vw / 1920));
+	font-family: yanone_kaffeesatzregular, Arial;
+	color: white;
+}
+
+
+.t2{
+	margin-top: 1px;
+	margin-bottom: 10px;
+	margin-left:165px;
+	/*font-size: 250px;*/
+	font-size: calc(40px + 210 * (100vw / 1920));
+	font-family: yanone_kaffeesatzbold, Arial;
+	color: white;
+}
+
+
+.t3{
+	margin-top: 30px;
+	margin-left: 150px;
+	/*font-size: 50px;*/
+	font-size: calc(8px + 42 * (100vw / 1920));
+	font-family: yanone_kaffeesatzregular, Arial;
+	color: white;
+}
+/*Серидина*/
+.t4{
+	font-size: calc(50px + 50 * (100vw / 1920));
+	font-family: yanone_kaffeesatzbold, Arial;
+}
+
+.t5{
+	color: black;
+	margin-left: 70px;
+    font-size: calc(14px + 26 * (100vw / 1920));
+	font-family: yanone_kaffeesatzregular, Arial;	
+}
+/*Низ */
+.t6{
+	font-size: calc(2px + 14 * (100vw / 1920));
+	margin-top: 200px;
+	color: #A90000;
+}
+
+/*Тени */
+.shb{
+	text-shadow: black 3px 3px 3px;
+}
+.shw{
+	text-shadow: white 3px 3px 3px;
+}
+
+
+/*Меню */
+.menu{
+	color: white;
+	text-shadow: black 2px 2px 2px;
+	/*font-size: 40px;*/
+	font-size: calc(30px + 10 * (100vw / 1920));
+	font-family: yanone_kaffeesatzbold, Arial;
+}
+
+.mdiv{
+	float: right;
+	margin-right: calc(3% + 1px);
+}
+
+/*Линии */
+.ln1{
+	width: 0%;
+}
+
+.ln2{
+	width: 80%;
+	height: 5px;
+	background-color: black;
+	border-radius: 100px;
+	color: black;
+	margin-top: 500px;
+	margin-bottom: 30px;
+}
+
+/*Круги */
+.round01 {
+  width: 300px;
+  height: 300px;
+  border: 20px solid #98603F;
+  border-radius: 50%;
+  margin-left: 100px;
+}
+
+.round02 {
+  width: 51px;
+  height: 51px;
+  border: 5px solid #98603F;
+  border-radius: 50%;
+}
+
+
+/*Пдчеркивание текста*/
+
+pt1{
+	text-decoration: underline;
+	text-decoration-color:  #fa3b3b;
+}
+
+
+/*Стороны */
+.right{
+	text-align:right;
+	margin-right: 100px;
+}
+.center{
+	text-align:center;
+}
+
+
+.left{
+	margin-left:65px;
+}
+
+
+/*Отступы */
+p{
+	line-height: 1em;
+	letter-spacing: 0.3px;
+}
+

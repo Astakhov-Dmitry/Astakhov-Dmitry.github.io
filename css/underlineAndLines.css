@@ -1,0 +1,21 @@
+/*Линии */
+.ln1{
+	width: 0%;
+}
+
+.ln2{
+	width: 80%;
+	height: 5px;
+	background-color: black;
+	border-radius: 100px;
+	color: black;
+	margin-top: 500px;
+	margin-bottom: 30px;
+}
+
+/*Подчеркивание текста*/
+
+pt1{
+	text-decoration: underline;
+	text-decoration-color:  #fa3b3b;
+}
